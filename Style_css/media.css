@@ -15,6 +15,7 @@
 
   .cover-text {
     justify-content: center !important;
+    align-items: center;
   }
 
   .search-box {
@@ -32,6 +33,8 @@
   }
 
   .para{
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
   }
 }
