@@ -4,22 +4,25 @@ let carCompanies = {
       Model: "Corolla Altis 1.6",
       Engine: "1.6L Petrol",
       Mileage: "12-16 km/L",
-      KeyFeatures: "Auto Transmission, Airbags, Touchscreen",
+      seatCapacity: "5-Seater",
       Price: "PKR 6.5M",
+      image: "images/corolla.jpg",
     },
     Fortuner: {
       Model: "Fortuner Legender	",
       Engine: "2.8L Diesel	",
       Mileage: "10-12 km/L	",
-      KeyFeatures: "AWD, Leather Interior, Sunroof, 7-Seater	",
+      seatCapacity: "7-Seater",
       Price: "PKR 18M",
+      image: "images/Fortuner.jpg",
     },
     Yaris: {
       Model: "Yaris 1.5 ATIV X	",
       Engine: "1.5L Petrol	",
       Mileage: "14-18 km/L	",
-      KeyFeatures: "Smart Entry, Cruise Control, Push Start	",
+      seatCapacity: "5-Seater",
       Price: "PKR 5.5M",
+      image: "images/Yaris.jpg",
     },
   },
   Honda: {
@@ -27,22 +30,25 @@ let carCompanies = {
       Model: "Civic RS Turbo",
       Engine: "1.5L Turbo",
       Mileage: "10-14 km/L",
-      KeyFeatures: "Sunroof, Digital Cluster, Honda Sensing",
+      seatCapacity: "5-Seater",
       Price: "PKR 9.5M",
+      image: "images/Civic.jpg",
     },
     City: {
       Model: "City Aspire 1.5",
       Engine: "1.5L Petrol",
       Mileage: "12-16 km/L",
-      KeyFeatures: "Paddle Shifters, Touchscreen",
+      seatCapacity: "5-Seater",
       Price: "PKR 6M",
+      image: "images/City.jpg",
     },
     BRV: {
       Model: "BR-V i-VTEC S	",
       Engine: "1.5L Petrol",
       Mileage: "11-15 km/L	",
-      KeyFeatures: "7-Seater, Roof Rails, CVT Transmission",
+      seatCapacity: "7-Seater",
       Price: "PKR 7M",
+      image: "images/brv`.jpg",
     },
   },
   Suzuki: {
@@ -50,22 +56,25 @@ let carCompanies = {
       Model: "Swift GLX CVT",
       Engine: "1.2L Petrol",
       Mileage: "16-20 km/L",
-      KeyFeatures: "Push Start,Cruise Control,",
+      seatCapacity: "5-Seater",
       Price: "PKR 4.7M",
+      image: "images/Swift.jpg",
     },
     Cultus: {
       Model: "Cultus VXL AGS",
       Engine: "1.0L Petrol",
       Mileage: "18-22 km/L",
-      KeyFeatures: "Touchscreen, Airbags, ABS Brakes",
+      seatCapacity: "5-Seater",
       Price: "PKR 4.1M",
+      image: "images/Cultus.jpg",
     },
     Alto: {
       Model: "Alto VXL AGS",
       Engine: "0.66L Petrol",
       Mileage: "20-24 km/L	",
-      KeyFeatures: "Keyless Entry, Power Windows, ABS",
+      seatCapacity: "5-Seater",
       Price: "PKR 3.2M",
+      image: "images/Alto.jpg",
     },
   },
 };
@@ -95,9 +104,10 @@ function displayResult() {
         title: `${selectedCompany} ${carDetails.Model}`,
         html: `
         <div class="para">
-          <p><strong>Engine:</strong> ${carDetails.Engine}</p>
+          <img class="img-fluid img-control" src="${carDetails.image}" alt="">
+          <p class="p1"><strong>Engine:</strong> ${carDetails.Engine}</p>
           <p><strong>Mileage:</strong> ${carDetails.Mileage}</p>
-          <p><strong>Key Features:</strong> ${carDetails.KeyFeatures}</p>
+          <p><strong>seat Capacity:</strong> ${carDetails.seatCapacity}</p>
           <p><strong>Price:</strong> ${carDetails.Price}</p>
         </div>
         `,

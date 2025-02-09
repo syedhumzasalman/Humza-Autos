@@ -93,3 +93,13 @@
     justify-content: start;
     align-items: start;
 }
+
+.para .p1{
+    margin-top: 30px;
+}
+
+.img-control{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
