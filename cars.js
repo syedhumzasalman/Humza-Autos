@@ -104,7 +104,7 @@ function displayResult() {
         title: `${selectedCompany} ${carDetails.Model}`,
         html: `
         <div class="para">
-          <img class="img-fluid img-control" src="${carDetails.image}" alt="">
+          <img class="img-fluid img-control" src="${carDetails.image}" alt="car-images">
           <p class="p1"><strong>Engine:</strong> ${carDetails.Engine}</p>
           <p><strong>Mileage:</strong> ${carDetails.Mileage}</p>
           <p><strong>seat Capacity:</strong> ${carDetails.seatCapacity}</p>
