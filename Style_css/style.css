@@ -5,6 +5,10 @@
     font-family: Roboto, sans-serif;
 }
 
+.navbar-toggler-icon{
+    color: white !important;
+}
+
 .nav-color{
     background-color: #023047;
     height: 15%;
