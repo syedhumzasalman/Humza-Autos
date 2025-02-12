@@ -1,40 +1,34 @@
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1300px) {
   .side-video {
-    width: 100vw;  
-    height: 100px;  
-    position: static; 
+    width: 100vw;
+    height: 100px;
+    position: static;
     display: block;
-    margin-top: 52px ;
+    margin-top: 52px;
   }
-  
+
   .second-video {
-    width: 100vw;  
-    height: 100px;  
+    width: 100vw;
+    height: 100px;
     position: static;
     display: block;
     margin-top: 100px;
   }
 }
 
-
-
 @media only screen and (max-width: 1000px) {
   .nav-color {
     height: 100%;
   }
-
 }
 
-
-
-
 @media only screen and (max-width: 768px) {
-  #displayCar{
+  #displayCar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    overflow-x: auto; 
-    gap: 15px; 
+    overflow-x: auto;
+    gap: 15px;
     padding: 10px;
     width: 100%;
     height: 100%;
@@ -42,9 +36,8 @@
 
   .card {
     flex: 0 0 auto;
-    width: 18rem; 
+    width: 18rem;
   }
-
 
   .mydiv {
     display: flex;
@@ -53,12 +46,10 @@
     align-items: start;
   }
 
-  .second-div{
+  .second-div {
     top: -300px;
     width: 70%;
   }
-
-  
 }
 
 @media only screen and (min-width: 1001px) {
@@ -67,6 +58,14 @@
   }
   .select-car1 {
     display: none;
+  }
+  
+  .select-car-button1 {
+    display: none;
+  }
+
+  .select-car-button {
+    display: block;
   }
 }
 
@@ -83,5 +82,18 @@
     align-items: center;
     width: 100px;
     height: 30px;
+  }
+  .select-car-button {
+    display: none;
+  }
+
+  .select-car-button1 {
+    display: block;
+    background-color: #023047;
+    color: white;
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
   }
 }
