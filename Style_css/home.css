@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+.nav-color {
+  background-color: #023047;
+  height: 12vh;
+}
+
+.nav-link {
+  color: white !important;
+  margin: 15px;
+}
+
+.select-car {
+  background-color: #023047;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+
+.img-control {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.mydiv{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#displayCar {
+  width: 35%;
+  height: 550px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.display-section{
+    background-color: aqua;
+    height: 550px;
+    width: 100%;
+    display: flex;
+}
+
+.first-div{
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+}
+
+.second-div{
+  /* background-color: gray; */
+  color: white;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+  top: -250px;
+}
+
+
+.mycard{
+  height: 100%;
+  width: 100%;
+}
+
+
+.img-control1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.16.0/dist/sweetalert2.min.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="/Style_css/boostarp.css">
+    <link rel="stylesheet" href="/Style_css/home.css">
+    <link rel="stylesheet" href="/Style_css/homemedia.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg nav-color">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img
+              src="/Images/humza-logo.png"
+              alt="Humza_logo"
+              height="100"
+              width="180"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle-navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><i class="fa-solid fa-bars fs-1"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Parts</a>
+              </li>
+
+
+
+
+
+
+
+
+              <select onchange="changeCompany()" id="company" class="select-car ms-4">
+                <option value="">Company</option>
+              </select>
+
+
+              <select id="model" class="select-car ms-4">
+                <option value="">Model</option>
+              </select>
+              
+
+
+
+
+
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+<div class="container d-flex justify-content-center align-items-center">
+  
+  <select onchange="changeCompany()" id="company" class="select-car1 ms-4">
+    <option value="">Company</option>
+  </select>
+  
+  
+  <select id="model" class="select-car1 ms-4">
+    <option value="">Model</option>
+  </select>
+  
+</div>
+
+
+      <div class="container mydiv">
+
+
+        <section class="car-section" id="displayCar">
+
+          <!-- First Section -->
+
+          
+        
+        
+      </section>
+
+
+      <section class="display-section" id="bigDisplay" >
+
+        <div class="first-div">
+          <img src="/Images/Corolla.jpg" class="card-img-top img-control1" alt=""> 
+          <div class="second-div">
+
+            <h5 class="fs-3 fw-bold ms-4">Corolla Altis 1.6 </h5>
+              <p class="fs-5 fw-bold ms-4"><b>Engine: </b>1.6L Petrol</p>
+              <p class="fs-5 fw-bold ms-4"><b>Mileage: </b>12-16 km/L</p>
+              <p class="fs-5 fw-bold ms-4"><b>Seat Capacity: </b> 5-Seater</p>
+              <p class="fs-5 fw-bold ms-4"><b>Price: </b> PKR 6.5M </p>
+
+          </div>
+        </div>
+
+
+      </section>
+        
+      </div>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
