@@ -79,6 +79,22 @@ let cars = {
   },
 };
 
+let company = document.getElementById("company");
+let modelName = document.getElementById("modelName");
+
+for (let key in cars) {
+  company.innerHTML += `<option value="${key}" > ${key} </option>`;
+  
+}
+
+function changeCompany() {
+  model.innerHTML = `<option value="">Model</option>`;
+  for (let key in cars[company.value]) {
+    modelName.innerHTML += `<option value="${key}" > ${key} </option>`;
+  }
+}
+
+
 let displayCar = document.getElementById("displayCar");
 let bigDisplay = document.getElementById("bigDisplay");
 
@@ -116,18 +132,4 @@ function showCarDetails(brand, model) {
 
 
 
-// let company = document.getElementById("company");
-// let model = document.getElementById("model");
 
-// for (let key in cars) {
-//   company.innerHTML += `<option value="${key}" > ${key} </option>`;
-
-// }
-
-// function changeCompany() {
-//   model.innerHTML = `<option value="">Model</option>`;
-//   for (let key in cars[company.value]) {
-//     model.innerHTML += `<option value="${key}" > ${key} </option>`;
-//   }
-
-// }

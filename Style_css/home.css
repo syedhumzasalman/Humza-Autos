@@ -26,6 +26,14 @@
   outline: none;
 }
 
+.select-car-button {
+  background-color: #023047;
+  color: white;
+  height: 30px;
+  width: 80px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 5px;
+}
 
 .img-control {
   width: 100%;
