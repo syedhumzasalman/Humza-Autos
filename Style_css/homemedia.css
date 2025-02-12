@@ -50,18 +50,15 @@
     top: -300px;
     width: 70%;
   }
+  
+  .not-display{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1001px) {
   .select-car {
     display: block;
-  }
-  .select-car1 {
-    display: none;
-  }
-  
-  .select-car-button1 {
-    display: none;
   }
 
   .select-car-button {
@@ -73,27 +70,9 @@
   .select-car {
     display: none;
   }
-  .select-car1 {
-    display: block;
-    background-color: #023047;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 30px;
-  }
+
   .select-car-button {
     display: none;
   }
 
-  .select-car-button1 {
-    display: block;
-    background-color: #023047;
-    color: white;
-    height: 30px;
-    width: 80px;
-    box-shadow: 5px 5px 5px black;
-    border-radius: 5px;
-  }
 }
